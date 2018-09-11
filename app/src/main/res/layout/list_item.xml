@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/phname_boston_tea_party_and_museum_10_addr_306_congress_st_boston_ma_02210_tab_boston_tea_party" />
+
+
+        <TextView
+            android:id="@+id/tvPhotoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:drawableEnd="@drawable/icons8_place_marker_80"
+            android:drawablePadding="16dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:text="@string/image_descriptor" />
+
+
+</LinearLayout>
